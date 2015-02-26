@@ -1,0 +1,55 @@
+body {
+    background-image: url(http://www.retro-fan.com/images/background01/5.jpg);
+    background-attachment: fixed;
+    color: $color2;
+    font-size: $base-font-size;
+    @include body-font;
+	margin: 0 auto;
+	max-width: 600px;
+	width: 100%;
+}
+
+div {
+    background-color: $background-color;
+    padding: 20px;
+}
+
+h1,h2,h3,h4 {
+    color: $color;
+    @include headline-font;
+}
+
+h1 {
+    font-size: em(44px);
+    margin: em(19px) 0 em(25px) 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: em(38px);
+    margin: em(60px) 0 em(8px) 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: em(34px);
+    margin: em(30px) 0 em(5px) 0;
+}
+
+h4 {
+    font-size: em(24px);
+    margin:em(30px) 0 em(2px) 0;
+}
+
+i, em{
+    @include body-font-italic;
+}
+
+b, strong {
+    @include body-font-bold;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
