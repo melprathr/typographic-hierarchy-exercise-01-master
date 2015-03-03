@@ -50,11 +50,13 @@
     //font-weight: 700;
 //}
 
-$background-color: rgba(59, 59, 59, 0.75);
-$base-font-size: 25px;
-$color: #09f5f5;
+$background-color: rgba(59, 59, 59, 0.86);
+$base-font-size: 21px;
+$color: #0bf0cd;
 $color2: #f4f4f4;
-$line-height: 1.45;
+$color3: rgba(244, 244, 244, 0.73);
+$color4: #4b4a4a;
+$line-height: 1.4;
 
 @function em($px, $base: $base-font-size) {
     @return ($px / $base) * 1em;
